@@ -18,7 +18,7 @@ body
     width: 50px;
     height: 50px;
     margin: 3px;
-    font-size: 1.5vw;
+    font-size: 2vw;
     transition-duration: .3s;
     cursor: pointer;
 }
@@ -49,12 +49,12 @@ body
 }
 .button:hover
 { 
-    font-size: 2vw;
+    font-size: 2.4vw;
     border-color: rgb(1, 114, 1);
     padding-top: 0px;
 }
 .button:active
 {
-    font-size: 1vw;
+    font-size: 1.2vw;
     border-color: rgb(0, 214, 0);
 }
