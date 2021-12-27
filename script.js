@@ -13,7 +13,7 @@ function back()
 }
 function calculate()
 {
-    var reply = document.querySelector(".reply").innerHTML.replace(",", ".")
+    var reply = document.querySelector(".reply").innerHTML
     if (reply){
         document.querySelector(".reply").innerHTML = eval(reply)
     }else{
